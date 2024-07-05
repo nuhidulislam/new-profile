@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Bookman Old Style;
+  color: white;
+  
+}
+
+body{
+  background: #000;
+}
+.as{
+  font-family: Algerian;
+  font-weight: bold;
+  color: red;
+  padding-right: 15px;
+  font-size: 60px;
+}
+.navbar{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0px 8%;
+  margin-top: 30px;
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding-left: 45px;
+  margin-top: 40px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  
+
+}
+
+.navbar ul li a:hover{
+  color: crimson;
+  transition: 1s;
+  transform: scale(2);
+ 
+}
+
+
+.btn{
+  border: none;
+  padding: 15px 25px;
+  font-size: 25px;
+  /* background: #f9f7f7; */
+  background: crimson;
+  border-radius: 40px;
+  color: white;
+  font-weight: bolder;
+  height: 50px;
+  margin-top: 20px;
+  transition:1s ;
+  
+  
+}
+
+
+.btn:hover{
+  background: #f271ee;
+  color: #000;
+  cursor: pointer;
+  
+  
+}
+
+
+img{
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ED213A, #bc4e9c);
+  height: 350px;
+  width: 350px;
+  background-position: top ;
+  margin-top: 50px;
+  margin-left: 30px;
+  
+  
+}
+
+.img:hover{
+  transition: 1s;
+  transform: translateY(-30px);
+  
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.about{
+  width: 45%;
+  margin-right: 50px;
+  text-align: justify;
+  margin-top: 70px;
+  line-height: 40px;
+}
+.about h1{
+  color: red;
+}
+
+.icon{
+ 
+  font-size: 30px;
+  color: white;
+  padding: 10px 20px;
+
+  
+}
+
+.ic{
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+
+.ic:hover{
+  border: none;
+  background: red;
+  
+ 
+}
+
+
